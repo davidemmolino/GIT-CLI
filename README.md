@@ -27,3 +27,8 @@ Useful GIT Commands
 | `touch .gitignore` | create hidden .gitignore file (add untracked files) | n/a
 | `git commit -m "<commit message>"` | commit files in staging area | `git commit -m "button to open directory is functioning"`
 | `git log` | list of previous commits | n/a
+| `git branch` | list of branches| n/a
+| `git checkout -b <branch-name>` | create local branch | n/a
+| `git checkout <branch-name>` | checkout existing branch | n/a
+| `git branch -d <local-branch-name>` | create local branch | n/a
+| `git push <remote-branch-name> --delete remoteBranchName` | delete remote branch | `git push origin --delete remoteBranchName`
