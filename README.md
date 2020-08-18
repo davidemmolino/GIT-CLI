@@ -32,3 +32,4 @@ Useful GIT Commands
 | `git checkout <branch-name>` | checkout existing branch | n/a
 | `git branch -d <local-branch-name>` | create local branch | n/a
 | `git push <remote-branch-name> --delete remoteBranchName` | delete remote branch | `git push origin --delete featureA`
+| `git log --graph --all --decorate` | show graphical (pretty) git log | n/a
