@@ -22,8 +22,8 @@ Useful GIT Commands
 | `git pull <name> <branch>` | pull file(s) from remote link's branch | `git pull partner master`
 | `git push <name> <branch>` | push file(s) to remote link's branch (need auth access) | `git push origin master`
 | `git status` | see status of staging area | n/a  
-| `git add <name>` | add files to staging area | git add index.js
+| `git add <name>` | add files to staging area | `git add index.js`
 | `git add .` | add all modified files to staging area | n/a
 | `touch .gitignore` | create hidden .gitignore file (add untracked files) | n/a
-| `git commit -m "<commit message>"` | commit files in staging area | git commit -m "button to open directory is functioning"
+| `git commit -m "<commit message>"` | commit files in staging area | `git commit -m "button to open directory is functioning"`
 | `git log` | list of previous commits | n/a
