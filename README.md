@@ -17,7 +17,7 @@ Useful GIT Commands
 | Command  | Description | Example |
 | ------------- | ------------- | ------------- |
 | `git init` | create a hidden .git file | note: `cmd + shift + .` to see hidden files
-| `git remote add <name> <link>` | add remote links (upstream, partners, etc.) | git remote add upstream <Org GitHub Link>
+| `git remote add <name> <link>` | add remote links (upstream, partners, etc.) | `git remote add` upstream <Org GitHub Link>
 | `git remote -v` | list remote links (v for verbose) | n/a
 | `git pull <name> <branch>` | pull file(s) from remote link's branch | `git pull partner master`
 | `git push <name> <branch>` | push file(s) to remote link's branch (need auth access) | `git push origin master`
